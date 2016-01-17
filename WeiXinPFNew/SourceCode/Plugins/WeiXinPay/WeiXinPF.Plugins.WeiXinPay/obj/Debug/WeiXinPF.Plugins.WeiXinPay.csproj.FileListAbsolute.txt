@@ -1,0 +1,6 @@
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay\bin\WeiXinPF.Plugins.WeiXinPay.dll.config
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay\bin\WeiXinPF.Plugins.WeiXinPay.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay\bin\WeiXinPF.Plugins.WeiXinPay.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay\obj\Debug\WeiXinPF.Plugins.WeiXinPay.csprojResolveAssemblyReference.cache
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay\obj\Debug\WeiXinPF.Plugins.WeiXinPay.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay\obj\Debug\WeiXinPF.Plugins.WeiXinPay.pdb

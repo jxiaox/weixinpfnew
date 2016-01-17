@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4941BBF-0230-4F8E-8F54-EFCBA0C80344}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WeixinPF.Application</RootNamespace>
+    <AssemblyName>WeixinPF.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Autofac.3.5.0\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Configuration">
+      <HintPath>..\..\..\..\packages\Autofac.Configuration.3.3.0\lib\net40\Autofac.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="OneGulp.WeChat">
+      <HintPath>..\..\..\..\Common\OneGulp.WeChat.dll</HintPath>
+    </Reference>
+    <Reference Include="OneGulp.WeChat.MP">
+      <HintPath>..\..\..\..\Common\OneGulp.WeChat.MP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agent\Repository\IManagerLogRepository.cs" />
+    <Compile Include="Agent\Repository\IManagerInfoRepository.cs" />
+    <Compile Include="Agent\Repository\IManagerRoleRepository.cs" />
+    <Compile Include="Agent\Repository\IAgentRepository.cs" />
+    <Compile Include="Agent\Repository\IManagerBillRepository.cs" />
+    <Compile Include="Agent\Service\ManagerLogService.cs" />
+    <Compile Include="Agent\Service\ManagerRoleService.cs" />
+    <Compile Include="Agent\Service\ManagerInfoService.cs" />
+    <Compile Include="Agent\Service\WXAgentService.cs" />
+    <Compile Include="Agent\Service\WXManagerBillService.cs" />
+    <Compile Include="Article\Repository\IArticleCategoryRepository.cs" />
+    <Compile Include="Article\Service\ArticleCategoryService.cs" />
+    <Compile Include="BaseRepository\IRepository.cs" />
+    <Compile Include="Channel\Repository\IChannelRepository.cs" />
+    <Compile Include="Channel\Service\ChannelService.cs" />
+    <Compile Include="Common\Repository\IDistrictRepository.cs" />
+    <Compile Include="Common\Service\DistrictService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Interface\INavigationRepository.cs" />
+    <Compile Include="System\Interface\ISiteConfigRepository.cs" />
+    <Compile Include="System\Service\NavigationService.cs" />
+    <Compile Include="System\SiteConfig.cs" />
+    <Compile Include="Weixin\Message\Repository\IRequestRuleContentRepository.cs" />
+    <Compile Include="Weixin\Message\Repository\IRequestRuleRepository.cs" />
+    <Compile Include="Weixin\Message\Repository\IResponseMessageLogRepository.cs" />
+    <Compile Include="Weixin\Message\Service\ResponseMessageLogRepositoryService.cs" />
+    <Compile Include="Weixin\Pay\Repository\IPaymentInfoRepository.cs" />
+    <Compile Include="Weixin\Pay\Repository\IPayNotifyRepository.cs" />
+    <Compile Include="Weixin\Pay\Repository\IRefundOrderRepository.cs" />
+    <Compile Include="Weixin\Pay\Repository\IUnifiedOrderRepository.cs" />
+    <Compile Include="Weixin\Pay\Service\PaymentInfoService.cs" />
+    <Compile Include="Weixin\Pay\Service\PayNotifyService.cs" />
+    <Compile Include="Weixin\Pay\Service\UnifiedOrderService.cs" />
+    <Compile Include="Weixin\Repository\IAppInfoRepository.cs" />
+    <Compile Include="Weixin\Repository\IIndustryDefaultModuleRepository.cs" />
+    <Compile Include="Weixin\Repository\IPaymentRepository.cs" />
+    <Compile Include="Weixin\Repository\IPropertyRepository.cs" />
+    <Compile Include="Weixin\Repository\ISystemConfigRepository.cs" />
+    <Compile Include="Weixin\Repository\IUserRepository.cs" />
+    <Compile Include="Weixin\Service\AppInfoService.cs" />
+    <Compile Include="Weixin\Service\IndustryDefaultModuleService.cs" />
+    <Compile Include="Weixin\Service\PaymentService.cs" />
+    <Compile Include="Weixin\Service\PropertyService.cs" />
+    <Compile Include="Weixin\Service\SystemConfigService.cs" />
+    <Compile Include="Weixin\Service\WXUserService.cs" />
+    <Compile Include="Weixin\Token\Repository\IAccessTokenRepository.cs" />
+    <Compile Include="Weixin\Token\Repository\IJsApiTicketRepository.cs" />
+    <Compile Include="Weixin\Token\Service\AccessTokenService.cs" />
+    <Compile Include="Weixin\Token\Service\JsApiTicketService.cs" />
+    <Compile Include="Weixin\User\Repository\IUserRepository.cs" />
+    <Compile Include="Weixin\User\Service\UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\WeixinPF.Common\WeixinPF.Common.csproj">
+      <Project>{4c6c3917-60e6-42ed-ac44-d8da3d82a37b}</Project>
+      <Name>WeixinPF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Model\WeixinPF.Model\WeixinPF.Model.csproj">
+      <Project>{44d55bf4-ef1f-465d-810c-1be14910673f}</Project>
+      <Name>WeixinPF.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

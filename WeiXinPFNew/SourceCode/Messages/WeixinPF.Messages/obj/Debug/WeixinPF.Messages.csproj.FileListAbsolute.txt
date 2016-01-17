@@ -1,0 +1,6 @@
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Messages\WeixinPF.Messages\bin\Debug\WeixinPF.Messages.dll.config
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Messages\WeixinPF.Messages\bin\Debug\WeixinPF.Messages.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Messages\WeixinPF.Messages\bin\Debug\WeixinPF.Messages.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Messages\WeixinPF.Messages\obj\Debug\WeixinPF.Messages.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Messages\WeixinPF.Messages\obj\Debug\WeixinPF.Messages.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Messages\WeixinPF.Messages\obj\Debug\WeixinPF.Messages.csprojResolveAssemblyReference.cache

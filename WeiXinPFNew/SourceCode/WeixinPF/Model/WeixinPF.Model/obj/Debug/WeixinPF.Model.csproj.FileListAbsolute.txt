@@ -1,0 +1,9 @@
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\bin\Debug\WeixinPF.Model.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\bin\Debug\WeixinPF.Model.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\bin\Debug\EntityFramework.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\bin\Debug\EntityFramework.xml
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\obj\Debug\WeixinPF.Model.csprojResolveAssemblyReference.cache
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\obj\Debug\WeixinPF.Model.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Model\WeixinPF.Model\obj\Debug\WeixinPF.Model.pdb

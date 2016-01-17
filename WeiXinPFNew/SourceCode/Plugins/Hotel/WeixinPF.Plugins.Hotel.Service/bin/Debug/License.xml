@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license id="dcab7b5b-2d13-453f-b0f0-00a93c4901c1" expiration="2016-02-09T00:00:00.0000000" type="Trial" Applications="All" LicenseVersion="5.0" WorkerThreads="Max" AllowedNumberOfWorkerNodes="Max" LicenseType="Trial" MaxMessageThroughputPerSecond="Max">
+  <name>87392113@qq.com</name>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>3YhDbvaoqD2n4EXIzpshkzLAe2E=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>MDpSOUvbqd9U6lETS1B5MVNQ6B5WsgpVBC4IMExJqTih4ERnlvkztSZiWXXufABXJVLFTtfzAdxEeAeiTZYJ6ImIm8zMnaNfmRhHBHXNWV92QcF2X13fB9QorCx9W47h184QERCmrzz82LnmQJqV5CM3gm3kH7444CVGa+uvGtc=</SignatureValue>
+  </Signature>
+</license>

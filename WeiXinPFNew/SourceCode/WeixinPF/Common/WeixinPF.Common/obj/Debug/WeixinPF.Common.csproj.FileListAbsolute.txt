@@ -1,0 +1,13 @@
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\WeixinPF.Common.dll.config
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\WeixinPF.Common.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\WeixinPF.Common.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\Autofac.Configuration.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\Autofac.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\AutoMapper.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\Newtonsoft.Json.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\Autofac.xml
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\Autofac.Configuration.xml
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\bin\Debug\Newtonsoft.Json.xml
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\obj\Debug\WeixinPF.Common.csprojResolveAssemblyReference.cache
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\obj\Debug\WeixinPF.Common.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.Common\obj\Debug\WeixinPF.Common.pdb

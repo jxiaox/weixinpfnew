@@ -1,0 +1,5 @@
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.DBUtility\bin\Debug\WeixinPF.DBUtility.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.DBUtility\bin\Debug\WeixinPF.DBUtility.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.DBUtility\obj\Debug\WeixinPF.DBUtility.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.DBUtility\obj\Debug\WeixinPF.DBUtility.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\WeixinPF\Common\WeixinPF.DBUtility\obj\Debug\WeixinPF.DBUtility.csprojResolveAssemblyReference.cache

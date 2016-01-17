@@ -1,0 +1,243 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{537EF868-0E21-48FC-96CB-8668589CF562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeixinPF", "WeixinPF", "{3B557A92-F4DB-4B87-878C-05BE010328F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hotel", "Hotel", "{3EB239AC-158A-48C8-8436-F9CFF075D85D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Hotel.Plugins", "SourceCode\Plugins\Hotel\WeixinPF.Plugins.Hotel\WeixinPF.Hotel.Plugins.csproj", "{A77FC8B8-2FCC-418B-99DB-AA1D749B2ADE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344} = {C4941BBF-0230-4F8E-8F54-EFCBA0C80344}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{75DA46E1-B09C-4C90-AA37-1447D57D1211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Share", "Share", "{79065B03-9DE1-4779-BF60-470EAFBE4559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Hotel.Plugins.Service", "SourceCode\Plugins\Hotel\WeixinPF.Plugins.Hotel.Service\WeixinPF.Hotel.Plugins.Service.csproj", "{FB015820-1374-4AF4-9CF8-40A7C37B344B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04186677-71C9-4400-A294-02176774C5F7} = {04186677-71C9-4400-A294-02176774C5F7}
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344} = {C4941BBF-0230-4F8E-8F54-EFCBA0C80344}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{120E8F30-5B8A-4A62-98C1-B5804FBC97A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Messages", "SourceCode\Messages\WeixinPF.Messages\WeixinPF.Messages.csproj", "{2EF4819A-7ECB-4CDD-A241-79F839125AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Shared", "SourceCode\WeixinPF\WeixinPF.Shared\WeixinPF.Shared.csproj", "{070F2C49-B23A-45A0-AAD5-31C37AF4AAB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Web", "SourceCode\WeixinPF\Web\WeixinPF.Web\WeixinPF.Web.csproj", "{90493C5B-A365-4098-BC5C-04B064DE83F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeixinFramework", "WeixinFramework", "{35739526-9D65-4C7F-BA27-D36DC5C468D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{50EF5608-6335-48DC-B160-E14FF036E7AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Infrastructure", "SourceCode\WeixinPF\Infrastructure\WeixinPF.Infrastructure\WeixinPF.Infrastructure.csproj", "{04186677-71C9-4400-A294-02176774C5F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344} = {C4941BBF-0230-4F8E-8F54-EFCBA0C80344}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5DAD00D4-17D2-4676-8813-D765DB9FA243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Application", "SourceCode\WeixinPF\Application\WeixinPF.Application\WeixinPF.Application.csproj", "{C4941BBF-0230-4F8E-8F54-EFCBA0C80344}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EEC5D0A8-87D3-4222-9E87-17B306E418DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Common", "SourceCode\WeixinPF\Common\WeixinPF.Common\WeixinPF.Common.csproj", "{4C6C3917-60E6-42ED-AC44-D8DA3D82A37B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{E3F66AB3-0CA3-40D1-B42D-48C72EA86D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Model", "SourceCode\WeixinPF\Model\WeixinPF.Model\WeixinPF.Model.csproj", "{44D55BF4-EF1F-465D-810C-1BE14910673F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.DBUtility", "SourceCode\WeixinPF\Common\WeixinPF.DBUtility\WeixinPF.DBUtility.csproj", "{7D5B8436-B951-43A6-9934-1868E9B6645B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelUnitTest", "SourceCode\Plugins\Hotel\HotelUnitTest\HotelUnitTest.csproj", "{86811778-D4DA-450F-9E1A-79CDC68AEAE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeiXinPay", "WeiXinPay", "{914D3608-0EBB-4747-9B3E-A88CF301507A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiXinPF.Plugins.WeiXinPay", "SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay\WeiXinPF.Plugins.WeiXinPay.csproj", "{B93901F0-0FBF-4DFC-B9EA-13313966EF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiXinPF.Plugins.WeiXinPay.Service", "SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\WeiXinPF.Plugins.WeiXinPay.Service.csproj", "{ABAEA938-59B9-440B-890A-00AEBEDBD988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.Web.UI", "SourceCode\WeixinPF\Web\WeixinPF.Web.UI\WeixinPF.Web.UI.csproj", "{FA21B2DF-C6AE-431A-AE0F-F38AE2C2A2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinPF.WeixinFramework.Common", "SourceCode\WeixinPF\WeixinFramework\WeixinPF.WeixinFramework.Common\WeixinPF.WeixinFramework.Common.csproj", "{5D40093C-2F2F-4413-A7FC-F04D5E39E585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationTest", "SourceCode\WeixinPF\Application\ApplicationTest\ApplicationTest.csproj", "{856474A4-3B76-41E8-B52C-01D475C96BC6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs40
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SourceCode\\Messages\\WeixinPF.Messages\\WeixinPF.Messages.csproj
+		SccProjectTopLevelParentUniqueName1 = WeiXinPFNew.sln
+		SccProjectName1 = SourceCode/Messages/WeixinPF.Messages
+		SccLocalPath1 = SourceCode\\Messages\\WeixinPF.Messages
+		SccProjectUniqueName2 = SourceCode\\WeixinPF\\WeixinPF.Shared\\WeixinPF.Shared.csproj
+		SccProjectTopLevelParentUniqueName2 = WeiXinPFNew.sln
+		SccProjectName2 = SourceCode/WeixinPF/WeixinPF.Shared
+		SccLocalPath2 = SourceCode\\WeixinPF\\WeixinPF.Shared
+		SccProjectUniqueName3 = SourceCode\\WeixinPF\\Web\\WeixinPF.Web\\WeixinPF.Web.csproj
+		SccProjectTopLevelParentUniqueName3 = WeiXinPFNew.sln
+		SccProjectName3 = SourceCode/WeixinPF/Web/WeixinPF.Web
+		SccLocalPath3 = SourceCode\\WeixinPF\\Web\\WeixinPF.Web
+		SccProjectUniqueName4 = SourceCode\\WeixinPF\\Infrastructure\\WeixinPF.Infrastructure\\WeixinPF.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName4 = WeiXinPFNew.sln
+		SccProjectName4 = SourceCode/WeixinPF/Infrastructure/WeixinPF.Infrastructure
+		SccLocalPath4 = SourceCode\\WeixinPF\\Infrastructure\\WeixinPF.Infrastructure
+		SccProjectUniqueName5 = SourceCode\\WeixinPF\\Application\\WeixinPF.Application\\WeixinPF.Application.csproj
+		SccProjectTopLevelParentUniqueName5 = WeiXinPFNew.sln
+		SccProjectName5 = SourceCode/WeixinPF/Application/WeixinPF.Application
+		SccLocalPath5 = SourceCode\\WeixinPF\\Application\\WeixinPF.Application
+		SccProjectUniqueName6 = SourceCode\\WeixinPF\\Common\\WeixinPF.Common\\WeixinPF.Common.csproj
+		SccProjectTopLevelParentUniqueName6 = WeiXinPFNew.sln
+		SccProjectName6 = SourceCode/WeixinPF/Common/WeixinPF.Common
+		SccLocalPath6 = SourceCode\\WeixinPF\\Common\\WeixinPF.Common
+		SccProjectUniqueName7 = SourceCode\\WeixinPF\\Model\\WeixinPF.Model\\WeixinPF.Model.csproj
+		SccProjectTopLevelParentUniqueName7 = WeiXinPFNew.sln
+		SccProjectName7 = SourceCode/WeixinPF/Model/WeixinPF.Model
+		SccLocalPath7 = SourceCode\\WeixinPF\\Model\\WeixinPF.Model
+		SccProjectUniqueName8 = SourceCode\\WeixinPF\\Common\\WeixinPF.DBUtility\\WeixinPF.DBUtility.csproj
+		SccProjectTopLevelParentUniqueName8 = WeiXinPFNew.sln
+		SccProjectName8 = SourceCode/WeixinPF/Common/WeixinPF.DBUtility
+		SccLocalPath8 = SourceCode\\WeixinPF\\Common\\WeixinPF.DBUtility
+		SccProjectUniqueName9 = SourceCode\\Plugins\\Hotel\\HotelUnitTest\\HotelUnitTest.csproj
+		SccProjectTopLevelParentUniqueName9 = WeiXinPFNew.sln
+		SccProjectName9 = SourceCode/Plugins/Hotel/HotelUnitTest
+		SccLocalPath9 = SourceCode\\Plugins\\Hotel\\HotelUnitTest
+		SccProjectUniqueName10 = SourceCode\\Plugins\\WeiXinPay\\WeiXinPF.Plugins.WeiXinPay\\WeiXinPF.Plugins.WeiXinPay.csproj
+		SccProjectTopLevelParentUniqueName10 = WeiXinPFNew.sln
+		SccProjectName10 = SourceCode/Plugins/WeiXinPay/WeiXinPF.Plugins.WeiXinPay
+		SccLocalPath10 = SourceCode\\Plugins\\WeiXinPay\\WeiXinPF.Plugins.WeiXinPay
+		SccProjectUniqueName11 = SourceCode\\Plugins\\WeiXinPay\\WeiXinPF.Plugins.WeiXinPay.Service\\WeiXinPF.Plugins.WeiXinPay.Service.csproj
+		SccProjectTopLevelParentUniqueName11 = WeiXinPFNew.sln
+		SccProjectName11 = SourceCode/Plugins/WeiXinPay/WeiXinPF.Plugins.WeiXinPay.Service
+		SccLocalPath11 = SourceCode\\Plugins\\WeiXinPay\\WeiXinPF.Plugins.WeiXinPay.Service
+		SccProjectUniqueName12 = SourceCode\\WeixinPF\\Web\\WeixinPF.Web.UI\\WeixinPF.Web.UI.csproj
+		SccProjectTopLevelParentUniqueName12 = WeiXinPFNew.sln
+		SccProjectName12 = SourceCode/WeixinPF/Web/WeixinPF.Web.UI
+		SccLocalPath12 = SourceCode\\WeixinPF\\Web\\WeixinPF.Web.UI
+		SccProjectUniqueName13 = SourceCode\\Plugins\\Hotel\\WeixinPF.Plugins.Hotel.Service\\WeixinPF.Hotel.Plugins.Service.csproj
+		SccProjectTopLevelParentUniqueName13 = WeiXinPFNew.sln
+		SccProjectName13 = SourceCode/Plugins/Hotel/WeixinPF.Plugins.Hotel.Service
+		SccLocalPath13 = SourceCode\\Plugins\\Hotel\\WeixinPF.Plugins.Hotel.Service
+		SccProjectUniqueName14 = SourceCode\\Plugins\\Hotel\\WeixinPF.Plugins.Hotel\\WeixinPF.Hotel.Plugins.csproj
+		SccProjectTopLevelParentUniqueName14 = WeiXinPFNew.sln
+		SccProjectName14 = SourceCode/Plugins/Hotel/WeixinPF.Plugins.Hotel
+		SccLocalPath14 = SourceCode\\Plugins\\Hotel\\WeixinPF.Plugins.Hotel
+		SccProjectUniqueName15 = SourceCode\\WeixinPF\\WeixinFramework\\WeixinPF.WeixinFramework.Common\\WeixinPF.WeixinFramework.Common.csproj
+		SccProjectTopLevelParentUniqueName15 = WeiXinPFNew.sln
+		SccProjectName15 = SourceCode/WeixinPF/WeixinFramework/WeixinPF.WeixinFramework.Common
+		SccLocalPath15 = SourceCode\\WeixinPF\\WeixinFramework\\WeixinPF.WeixinFramework.Common
+		SccProjectUniqueName16 = SourceCode\\WeixinPF\\Application\\ApplicationTest\\ApplicationTest.csproj
+		SccProjectTopLevelParentUniqueName16 = WeiXinPFNew.sln
+		SccProjectName16 = SourceCode/WeixinPF/Application/ApplicationTest
+		SccLocalPath16 = SourceCode\\WeixinPF\\Application\\ApplicationTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A77FC8B8-2FCC-418B-99DB-AA1D749B2ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77FC8B8-2FCC-418B-99DB-AA1D749B2ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77FC8B8-2FCC-418B-99DB-AA1D749B2ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77FC8B8-2FCC-418B-99DB-AA1D749B2ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB015820-1374-4AF4-9CF8-40A7C37B344B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB015820-1374-4AF4-9CF8-40A7C37B344B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB015820-1374-4AF4-9CF8-40A7C37B344B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB015820-1374-4AF4-9CF8-40A7C37B344B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF4819A-7ECB-4CDD-A241-79F839125AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF4819A-7ECB-4CDD-A241-79F839125AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF4819A-7ECB-4CDD-A241-79F839125AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF4819A-7ECB-4CDD-A241-79F839125AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070F2C49-B23A-45A0-AAD5-31C37AF4AAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070F2C49-B23A-45A0-AAD5-31C37AF4AAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070F2C49-B23A-45A0-AAD5-31C37AF4AAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070F2C49-B23A-45A0-AAD5-31C37AF4AAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90493C5B-A365-4098-BC5C-04B064DE83F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90493C5B-A365-4098-BC5C-04B064DE83F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90493C5B-A365-4098-BC5C-04B064DE83F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90493C5B-A365-4098-BC5C-04B064DE83F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04186677-71C9-4400-A294-02176774C5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04186677-71C9-4400-A294-02176774C5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04186677-71C9-4400-A294-02176774C5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04186677-71C9-4400-A294-02176774C5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6C3917-60E6-42ED-AC44-D8DA3D82A37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6C3917-60E6-42ED-AC44-D8DA3D82A37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6C3917-60E6-42ED-AC44-D8DA3D82A37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6C3917-60E6-42ED-AC44-D8DA3D82A37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D55BF4-EF1F-465D-810C-1BE14910673F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D55BF4-EF1F-465D-810C-1BE14910673F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D55BF4-EF1F-465D-810C-1BE14910673F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D55BF4-EF1F-465D-810C-1BE14910673F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5B8436-B951-43A6-9934-1868E9B6645B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5B8436-B951-43A6-9934-1868E9B6645B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5B8436-B951-43A6-9934-1868E9B6645B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5B8436-B951-43A6-9934-1868E9B6645B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86811778-D4DA-450F-9E1A-79CDC68AEAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86811778-D4DA-450F-9E1A-79CDC68AEAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86811778-D4DA-450F-9E1A-79CDC68AEAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86811778-D4DA-450F-9E1A-79CDC68AEAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93901F0-0FBF-4DFC-B9EA-13313966EF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93901F0-0FBF-4DFC-B9EA-13313966EF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93901F0-0FBF-4DFC-B9EA-13313966EF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93901F0-0FBF-4DFC-B9EA-13313966EF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAEA938-59B9-440B-890A-00AEBEDBD988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAEA938-59B9-440B-890A-00AEBEDBD988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAEA938-59B9-440B-890A-00AEBEDBD988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAEA938-59B9-440B-890A-00AEBEDBD988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA21B2DF-C6AE-431A-AE0F-F38AE2C2A2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA21B2DF-C6AE-431A-AE0F-F38AE2C2A2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA21B2DF-C6AE-431A-AE0F-F38AE2C2A2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA21B2DF-C6AE-431A-AE0F-F38AE2C2A2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D40093C-2F2F-4413-A7FC-F04D5E39E585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D40093C-2F2F-4413-A7FC-F04D5E39E585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D40093C-2F2F-4413-A7FC-F04D5E39E585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D40093C-2F2F-4413-A7FC-F04D5E39E585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856474A4-3B76-41E8-B52C-01D475C96BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856474A4-3B76-41E8-B52C-01D475C96BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856474A4-3B76-41E8-B52C-01D475C96BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856474A4-3B76-41E8-B52C-01D475C96BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EB239AC-158A-48C8-8436-F9CFF075D85D} = {537EF868-0E21-48FC-96CB-8668589CF562}
+		{A77FC8B8-2FCC-418B-99DB-AA1D749B2ADE} = {3EB239AC-158A-48C8-8436-F9CFF075D85D}
+		{75DA46E1-B09C-4C90-AA37-1447D57D1211} = {3B557A92-F4DB-4B87-878C-05BE010328F3}
+		{79065B03-9DE1-4779-BF60-470EAFBE4559} = {3B557A92-F4DB-4B87-878C-05BE010328F3}
+		{FB015820-1374-4AF4-9CF8-40A7C37B344B} = {3EB239AC-158A-48C8-8436-F9CFF075D85D}
+		{2EF4819A-7ECB-4CDD-A241-79F839125AF8} = {120E8F30-5B8A-4A62-98C1-B5804FBC97A2}
+		{070F2C49-B23A-45A0-AAD5-31C37AF4AAB0} = {79065B03-9DE1-4779-BF60-470EAFBE4559}
+		{90493C5B-A365-4098-BC5C-04B064DE83F4} = {75DA46E1-B09C-4C90-AA37-1447D57D1211}
+		{35739526-9D65-4C7F-BA27-D36DC5C468D6} = {3B557A92-F4DB-4B87-878C-05BE010328F3}
+		{50EF5608-6335-48DC-B160-E14FF036E7AB} = {3B557A92-F4DB-4B87-878C-05BE010328F3}
+		{04186677-71C9-4400-A294-02176774C5F7} = {50EF5608-6335-48DC-B160-E14FF036E7AB}
+		{5DAD00D4-17D2-4676-8813-D765DB9FA243} = {3B557A92-F4DB-4B87-878C-05BE010328F3}
+		{C4941BBF-0230-4F8E-8F54-EFCBA0C80344} = {5DAD00D4-17D2-4676-8813-D765DB9FA243}
+		{EEC5D0A8-87D3-4222-9E87-17B306E418DD} = {3B557A92-F4DB-4B87-878C-05BE010328F3}
+		{4C6C3917-60E6-42ED-AC44-D8DA3D82A37B} = {EEC5D0A8-87D3-4222-9E87-17B306E418DD}
+		{E3F66AB3-0CA3-40D1-B42D-48C72EA86D1A} = {3B557A92-F4DB-4B87-878C-05BE010328F3}
+		{44D55BF4-EF1F-465D-810C-1BE14910673F} = {E3F66AB3-0CA3-40D1-B42D-48C72EA86D1A}
+		{7D5B8436-B951-43A6-9934-1868E9B6645B} = {EEC5D0A8-87D3-4222-9E87-17B306E418DD}
+		{86811778-D4DA-450F-9E1A-79CDC68AEAE0} = {3EB239AC-158A-48C8-8436-F9CFF075D85D}
+		{914D3608-0EBB-4747-9B3E-A88CF301507A} = {537EF868-0E21-48FC-96CB-8668589CF562}
+		{B93901F0-0FBF-4DFC-B9EA-13313966EF82} = {914D3608-0EBB-4747-9B3E-A88CF301507A}
+		{ABAEA938-59B9-440B-890A-00AEBEDBD988} = {914D3608-0EBB-4747-9B3E-A88CF301507A}
+		{FA21B2DF-C6AE-431A-AE0F-F38AE2C2A2D4} = {75DA46E1-B09C-4C90-AA37-1447D57D1211}
+		{5D40093C-2F2F-4413-A7FC-F04D5E39E585} = {35739526-9D65-4C7F-BA27-D36DC5C468D6}
+		{856474A4-3B76-41E8-B52C-01D475C96BC6} = {5DAD00D4-17D2-4676-8813-D765DB9FA243}
+	EndGlobalSection
+EndGlobal

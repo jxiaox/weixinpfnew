@@ -1,0 +1,13 @@
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\WeiXinPF.Plugins.WeiXinPay.Service.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\WeiXinPF.Plugins.WeiXinPay.Service.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\EntityFramework.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\OneGulp.WeChat.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\OneGulp.WeChat.MP.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\WeixinPF.Model.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\WeixinPF.Model.pdb
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\EntityFramework.xml
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\obj\Debug\WeiXinPF.Plugins.WeiXinPay.Service.csprojResolveAssemblyReference.cache
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\obj\Debug\WeiXinPF.Plugins.WeiXinPay.Service.dll
+C:\2-开发\CodeplexWorkspce\WeiXinPFNew\SourceCode\Plugins\WeiXinPay\WeiXinPF.Plugins.WeiXinPay.Service\obj\Debug\WeiXinPF.Plugins.WeiXinPay.Service.pdb

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44D55BF4-EF1F-465D-810C-1BE14910673F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WeixinPF.Model</RootNamespace>
+    <AssemblyName>WeixinPF.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agent\ManagerInfo.cs" />
+    <Compile Include="Agent\ManagerLogInfo.cs" />
+    <Compile Include="Agent\ManagerRoleInfo.cs" />
+    <Compile Include="Agent\ManagerRoleValue.cs" />
+    <Compile Include="Agent\AgentInfo.cs" />
+    <Compile Include="Agent\ManagerBillInfo.cs" />
+    <Compile Include="Article\ArticleCategory.cs" />
+    <Compile Include="Article\ArticleImageSize.cs" />
+    <Compile Include="Channel\Channel.cs" />
+    <Compile Include="Channel\ChannelField.cs" />
+    <Compile Include="Common\District.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\Navigation.cs" />
+    <Compile Include="Common\sys_config.cs" />
+    <Compile Include="WeiXin\Menu\MenuInfo.cs" />
+    <Compile Include="WeiXin\Message\RequestRule.cs" />
+    <Compile Include="WeiXin\Message\RequestRuleContent.cs" />
+    <Compile Include="WeiXin\Message\ResponseContentEntity.cs" />
+    <Compile Include="WeiXin\Message\ResponseMessageLog.cs" />
+    <Compile Include="WeiXin\Pay\PaymentInfo.cs" />
+    <Compile Include="WeiXin\Pay\PayNotifyInfo.cs" />
+    <Compile Include="WeiXin\Pay\RefundOrderInfo.cs" />
+    <Compile Include="WeiXin\Pay\UnifiedOrderInfo.cs" />
+    <Compile Include="WeiXin\Token\AccessToken.cs" />
+    <Compile Include="WeiXin\Token\JsApiTicket.cs" />
+    <Compile Include="WeiXin\Group\GroupInfo.cs" />
+    <Compile Include="WeiXin\User\UserInfo.cs" />
+    <Compile Include="WeiXin\AppInfo.cs" />
+    <Compile Include="WeiXin\IndustryDefaultModule.cs" />
+    <Compile Include="WeiXin\PaymentInfo.cs" />
+    <Compile Include="WeiXin\Property.cs" />
+    <Compile Include="WeiXin\SystemConfig.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
